@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		960C38FC1FCA0E7400605982 /* AppDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960C38FB1FCA0E7400605982 /* AppDetailController.swift */; };
+		960C38FE1FCA4C1B00605982 /* ScreenshotsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960C38FD1FCA4C1B00605982 /* ScreenshotsCell.swift */; };
 		960DD2BC1FC79FB200DD70D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960DD2BB1FC79FB200DD70D4 /* AppDelegate.swift */; };
 		960DD2BE1FC79FB200DD70D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960DD2BD1FC79FB200DD70D4 /* ViewController.swift */; };
 		960DD2C11FC79FB200DD70D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 960DD2BF1FC79FB200DD70D4 /* Main.storyboard */; };
@@ -14,6 +16,8 @@
 		960DD2C61FC79FB200DD70D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 960DD2C41FC79FB200DD70D4 /* LaunchScreen.storyboard */; };
 		960DD2D11FC79FB200DD70D4 /* appStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960DD2D01FC79FB200DD70D4 /* appStoreTests.swift */; };
 		960DD2DC1FC79FB200DD70D4 /* appStoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960DD2DB1FC79FB200DD70D4 /* appStoreUITests.swift */; };
+		960DD2EA1FC86C0600DD70D4 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960DD2E91FC86C0600DD70D4 /* CategoryCell.swift */; };
+		960DD2EC1FC89CE600DD70D4 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960DD2EB1FC89CE600DD70D4 /* Models.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		960C38FB1FCA0E7400605982 /* AppDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDetailController.swift; sourceTree = "<group>"; };
+		960C38FD1FCA4C1B00605982 /* ScreenshotsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenshotsCell.swift; sourceTree = "<group>"; };
 		960DD2B81FC79FB200DD70D4 /* appStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = appStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		960DD2BB1FC79FB200DD70D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		960DD2BD1FC79FB200DD70D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +53,8 @@
 		960DD2D71FC79FB200DD70D4 /* appStoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = appStoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		960DD2DB1FC79FB200DD70D4 /* appStoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appStoreUITests.swift; sourceTree = "<group>"; };
 		960DD2DD1FC79FB300DD70D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		960DD2E91FC86C0600DD70D4 /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		960DD2EB1FC89CE600DD70D4 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +107,10 @@
 			children = (
 				960DD2BB1FC79FB200DD70D4 /* AppDelegate.swift */,
 				960DD2BD1FC79FB200DD70D4 /* ViewController.swift */,
+				960C38FB1FCA0E7400605982 /* AppDetailController.swift */,
+				960DD2EB1FC89CE600DD70D4 /* Models.swift */,
+				960DD2E91FC86C0600DD70D4 /* CategoryCell.swift */,
+				960C38FD1FCA4C1B00605982 /* ScreenshotsCell.swift */,
 				960DD2BF1FC79FB200DD70D4 /* Main.storyboard */,
 				960DD2C21FC79FB200DD70D4 /* Assets.xcassets */,
 				960DD2C41FC79FB200DD70D4 /* LaunchScreen.storyboard */,
@@ -261,6 +273,10 @@
 			files = (
 				960DD2BE1FC79FB200DD70D4 /* ViewController.swift in Sources */,
 				960DD2BC1FC79FB200DD70D4 /* AppDelegate.swift in Sources */,
+				960DD2EA1FC86C0600DD70D4 /* CategoryCell.swift in Sources */,
+				960C38FC1FCA0E7400605982 /* AppDetailController.swift in Sources */,
+				960DD2EC1FC89CE600DD70D4 /* Models.swift in Sources */,
+				960C38FE1FCA4C1B00605982 /* ScreenshotsCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,6 +445,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HQTQT3UZMK;
 				INFOPLIST_FILE = appStore/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.AsQ.appStore;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -444,6 +461,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HQTQT3UZMK;
 				INFOPLIST_FILE = appStore/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.AsQ.appStore;
 				PRODUCT_NAME = "$(TARGET_NAME)";
