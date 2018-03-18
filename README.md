@@ -1,0 +1,1 @@
+Comunicação API, CollectionView
